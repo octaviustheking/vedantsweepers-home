@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title></title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  /* link: https://script.google.com/a/macros/forsythk12.org/s/AKfycbyuYCxfkbBi_O3dTauuGgpM0yCqoTxunBYeHaKTR4hsCFiwDnjeWdwN8823vkcgUmg0ZA/exec */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "courier new", "lucida console", monaco, monospace;
+}
+
+/* Style the header */
+header {
+  background-color: #0a0a0a;
+  padding: 0px;
+  text-align: center;
+  font-size: 35px;
+  color: #11b502;
+  border: 2px solid;
+  border-color: #11b502;
+}
+
+/* Create two columns/boxes that floats next to each other - menu*/
+nav {
+  float: left;
+  width: 30%;
+  height: 420px;
+  background: #0a0a0a;
+  padding: 20px;
+  color: #11b502;
+  border: 2px solid;
+  border-color: #11b502;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: circle;
+  padding: 20px;
+  color: #11b502;
+}
+
+/* Right text, like the article */
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #0a0a0a;
+  height: 420px;
+  color: #11b502;
+  border: 2px solid;
+  border-color: #11b502;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #0a0a0a;
+  padding: 0px;
+  text-align: center;
+  color: #11b502;
+  border: 2px solid;
+  border-color: #11b502;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* links */
+a:link {
+  color: #11b502;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #11b502;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #11b502;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #11b502;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+</style>
+</head>
+<body>
+<header id="top">
+  <h2>The Vedant Sweepers</h2>
+  <p>The Website of the Rebellion!</p>
+</header>
+
+<section>
+  <nav>
+  	<h3>Menu</h3>
+    <!--Add in links in href later-->
+      <ul>
+      <li>COMING SOON</li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h2>Home</h2>
+    <p>Welcome to the website of the Vedant Sweepers.</p>
+    <p>The rebellion against President Vedant Panday!</p>
+    <p>Follow us into war!</p>
+    <p>Roast him toast him!</p>
+    <p>Let's sweep him to Planet X!</p>
+    <p><b>CHARGE!!!!!!!!!!!!</b></p>
+    <p><a href="https://drive.google.com/file/d/1zAWYdfyAKrN7qK0pMDFiWuyGdF0X1H1q/view?usp=sharing" target=_blank>Our Flag</a></p>
+    <p>Current version: 0.8.0</p>
+    <p>Presented by Octavius Szeto, Jayden Nadar, & Ryan Wolaver</p>
+  </article>
+</section>
+
+<footer>
+  <p>This was created using HTML and CSS!</p>
+  <p><a href="#top">Back to the top</a></p>
+</footer>
+
+</body>
+</html>
